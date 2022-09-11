@@ -13,6 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/ba38967955.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <header class="header-box">
         <h1>
@@ -21,30 +22,39 @@
     </header>
     
     <main>
+        <section class="input-box">
+            <div class="area-box">
+                <textarea class="input-area" placeholder="Ingresa aquí el texto"></textarea>
+            </div>
+            <p><i class="fa-solid fa-circle-info"></i>Sólo letras minúsculas y sin acentos</p>
+            <div class="btn-box">
+                <input type="button" class="btn-encriptar" value="Encriptar">
+                <input type="button" class="btn-desencriptar"value="Desencriptar">
+            </div>
+        </section>
+        <section class="output-box">
+            <div class="person-image">
+                <img src="./Resources/Muñeco.png" alt="">
+            </div>
 
-        <script src="./encriptador.js"></script>
+            <div class="output-text">
+                <h2>Ningún mensaje fué encontrado</h2>
+                <p>Ingresa el texto que deseas encriptar o desencriptar</p>
+            </div>
 
-        <div class="input-box">
-            <textarea id="user-input" placeholder="Ingresa aquí tu texto"></textarea>
-            <p><i class="fa-solid fa-circle-info"></i> Solo en minúsculas y sin caracteres especiales.</p>
-        </div>
+            <div class="result-box">
+                <h3> Mensaje Encriptado </h3>
+                <p class="user-output"></p>
+            </div>
 
-        <div class="button-box">   
-            <button id="boton-encriptar"> Encriptar
-            </button>
-            <button id="boton-desencriptar"> Desencriptar
-            </button>
-        </div>
-
-        <div class="output-box">
-            <!-- <img src="./Resources/Muñeco.png" alt="No-texto"> -->
-             <textarea id="user-output"></textarea> 
-            <!-- <h2>Ningún mensaje fué encontrado</h2>
-            <p>Ingresa todo el texto que desees encriptar o desencriptar.</p> -->
-            <button> Copiar
-            </button>
-        </div>
-
+            <div class="copy-box">
+                <input type="button" value="Copiar" class="btn-copiar">
+            </div>
+        </section>
     </main>
+    <footer>
+        <p>&#169; 2022 @ripdiegozz - Todos los derechos reservados</p>
+    </footer>
+    <script src="encriptador.js"></script>
 </body>
 </html>
