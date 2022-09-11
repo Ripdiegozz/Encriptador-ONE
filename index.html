@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador - @ripdiegozz</title>
+    <link rel="shortcut icon" href="./Resources/Vector.png" type="image/x-icon">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ba38967955.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header-box">
+        <h1>
+            <img src="./Resources/Vector.png" alt="Logo alura">
+        </h1>
+    </header>
+    
+    <main>
+
+        <script src="./encriptador.js"></script>
+
+        <div class="input-box">
+            <textarea id="user-input" placeholder="Ingresa aquí tu texto"></textarea>
+            <p><i class="fa-solid fa-circle-info"></i> Solo en minúsculas y sin caracteres especiales.</p>
+        </div>
+
+        <div class="button-box">   
+            <button id="boton-encriptar"> Encriptar
+            </button>
+            <button id="boton-desencriptar"> Desencriptar
+            </button>
+        </div>
+
+        <div class="output-box">
+            <!-- <img src="./Resources/Muñeco.png" alt="No-texto"> -->
+             <textarea id="user-output"></textarea> 
+            <!-- <h2>Ningún mensaje fué encontrado</h2>
+            <p>Ingresa todo el texto que desees encriptar o desencriptar.</p> -->
+            <button> Copiar
+            </button>
+        </div>
+
+    </main>
+</body>
+</html>
