@@ -1,11 +1,11 @@
-# Encriptador-ONE
-SPRINT 01 - Encriptador de texto alura
+## Encriptador-ONE
+#SPRINT 01 - Encriptador de texto alura
 
 Página web realizada con HTML, CSS y Vanilla Javascript que fuera capaz de encriptar cadenas de texto y desencriptar las que ya hayan sido creadas por la misma página. Adicional a esto también se puede copiar al cortapapeles el mensaje encriptado o desencriptado mediante un botón.
 
 La página web está diseñada con diseño responsivo, por lo tanto está pensada para la gran mayoría de dispositivos.
 
-Screenshots del programa en funcionamiento:
+#Screenshots del programa en funcionamiento:
 
 1) Cargada inicialmente:
 ![1](https://user-images.githubusercontent.com/82405377/189583423-a18da65d-0ad5-4867-ba96-dadeb89e5005.png)
