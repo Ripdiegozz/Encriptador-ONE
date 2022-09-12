@@ -8,13 +8,14 @@ La página web está diseñada con diseño responsivo, por lo tanto está pensad
 Screenshots del programa en funcionamiento:
 
 1) Cargada inicialmente:
-![Image text] (https://github.com/Ripdiegozz/Encriptador-ONE/blob/main/Resources/RDM_screenshots/1.png)
+![1](https://user-images.githubusercontent.com/82405377/189583423-a18da65d-0ad5-4867-ba96-dadeb89e5005.png)
 
-1) Texto agregado al área y presionado el botón encriptar:
-![Image text] (https://github.com/Ripdiegozz/Encriptador-ONE/blob/main/Resources/RDM_screenshots/2.png)
+2) Texto agregado al área y presionado el botón encriptar:
+![2](https://user-images.githubusercontent.com/82405377/189583453-be07ed97-0c25-4bc6-b1be-77e2d7f6b04c.png)
 
-1) Texto encriptado agregado al área y presionado el botón desencriptar:
-![Image text] (https://github.com/Ripdiegozz/Encriptador-ONE/blob/main/Resources/RDM_screenshots/3.png)
+3) Texto encriptado agregado al área y presionado el botón desencriptar:
+![3](https://user-images.githubusercontent.com/82405377/189583463-148bf78a-0e6d-4f5b-b31b-03974cc7fb3a.png)
 
-1) Presionado el botón copiar luego de encriptar un texto:
-![Image text] (https://github.com/Ripdiegozz/Encriptador-ONE/blob/main/Resources/RDM_screenshots/4.png)
+4) Presionado el botón copiar luego de encriptar un texto:
+![4](https://user-images.githubusercontent.com/82405377/189583486-0a227a9a-fd74-4bf6-a3e5-27561a4e6e82.png)
+
